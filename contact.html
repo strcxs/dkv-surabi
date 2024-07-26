@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contoh Halaman dengan Navbar</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> -->
+<link rel="stylesheet" href="style.css">
+<style>
+  body{
+    background-image: url('Aset/Bg Contact 2-01.jpg');
+  }
+</style>
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="mt-2 ">
+      <div class="left-nav">
+        <ul>
+          <li><a href="index.html"><i class="logo-icon"></i></a></li>
+          <li><a href="menu.html">Product</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="right-nav">
+        <div class="user-info">
+          <i onclick="goBack()" class="back-icon mx-4"></i>
+          <i class="cart-icon mx-4"></i>
+          <i class="contact-icon mx-4"></i>
+        </div>
+      </div>
+    </nav>
+    <p class="text-basic mt-3">
+        Untuk melestarikan jajanan khas daerah dibutuhkan dukungan dan kerja keras
+        agar dapat menemukan varian rasa yang lebih unik dan cocok dengan semua kalangan.
+        Untuk mengakses media sosial bahkan tempat layanan kami bisa mengklik sebuah tautan
+        yang sudah di sediakan untuk mempermudah apa yang di butuhkan, mulai dari alamat/map
+        sosial media dan juga nomot telepon
+    </p>
+    <div class="container">
+        <div class="contact">
+            <div class="cont mx-5">
+                <p>SOSAL MEDIA</p>
+                <i class="instagram-icon"></i><a href="https://www.instagram.com/surabicihapittubagus" style="font-size: 20px; text-decoration: none; color: #ffffff;"> @surabicihapittubagus</a><br>
+                <i class="tiktok-icon"></i><a href="https://www.tiktok.com/@surapit1993" style="font-size: 20px; text-decoration: none; color: #ffffff;"> @surapit1993</a><br>
+            </div>
+            <div class="cont mx-5">
+                <p>TELEP/FAX</p>
+                <span>08392109312</span><br>
+            </div>
+            <div class="cont mx-5">
+                <p>ALAMAT</p>
+                <p style="font-size: 17px;line-height: 1">
+                    Jl. Tubagus Ismail No. 18 <br>Sekeloa Kec Coblong <br>Bandung 40134
+                </p>
+            </div>
+        </div>
+        <div class="maps">
+            <div style="display: flex; align-items: center;">
+                <!-- <button class="text-button">Contact</button> -->
+                <iframe width="1000px" height="250px" frameborder="0" 
+                    scrolling="no" marginheight="0" marginwidth="0" 
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Jl.%20Tubagus%20Ismail%20no.18+(Surabi%20Cihapit)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps vehicle tracker</a>
+                </iframe>
+            </div>
+        </div>
+    </div>
+  </div>
+
+</body>
+<script>
+  function goBack() {
+    window.history.back();
+  }
+</script>
+</html>

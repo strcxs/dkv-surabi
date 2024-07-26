@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contoh Halaman dengan Navbar</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> -->
+<link rel="stylesheet" href="style.css">
+<style>
+  body{
+    background-image: url('Aset/BG\ 1-01.jpg');
+  }
+</style>
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="mt-2 ">
+      <div class="left-nav">
+        <ul>
+          <li><a href="index.html"><i class="logo-icon"></i></a></li>
+          <li><a href="menu.html">Product</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="right-nav">
+        <div class="user-info">
+          <i onclick="goBack()" class="back-icon mx-4"></i>
+          <i class="cart-icon mx-4"></i>
+          <i class="contact-icon mx-4"></i>
+        </div>
+      </div>
+    </nav>
+    <div class="content mx-4 pt-2">
+        <div class="row">
+            <div class="col-4">
+                <h1>Favorit Menu</h1>
+                <img style="width: 350px; height: auto;" src="Aset/Produk Manis-01.png" alt="">
+            </div>
+            <div class="row col-8">
+                <div class="col-4">
+                    <img style="width: 170px; height: auto;" src="Foto Produk/Surabi kismis.png" alt="">
+                    <p>Surabi Kismis</p>
+                    <p style="margin-top: -15px;"><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i></p>
+                    <p style="margin-top: -20px;color: rgb(8, 140, 8);">Rp. 11.000</p>
+                    <p style="float: right;margin-top: -45px;margin-right: 70px;"><i class="cart-icon"></i></p>
+                </div>
+                <div class="col-4">
+                    <img style="width: 170px; height: auto;" src="Foto Produk/Surabi Keju.png" alt="">
+                    <p>Surabi Keju</p>
+                    <p style="margin-top: -15px;"><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i></p>
+                    <p style="margin-top: -20px;color: rgb(8, 140, 8);">Rp. 11.000</p>
+                    <p style="float: right;margin-top: -45px;margin-right: 70px;"><i class="cart-icon"></i></p>
+                </div>
+                <div class="col-4">
+                    <img style="width: 170px; height: auto;" src="Foto Produk/Surabi Kinca.png" alt="">
+                    <p>Surabi Kinca</p>
+                    <p style="margin-top: -15px;"><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i></p>
+                    <p style="margin-top: -20px;color: rgb(8, 140, 8);">Rp. 7.000</p>
+                    <p style="float: right;margin-top: -45px;margin-right: 70px;"><i class="cart-icon"></i></p>
+                </div>
+                <div class="col-4">
+                    <img style="width: 170px; height: auto;" src="Foto Produk/Surabi Durian.png" alt="">
+                    <p>Surabi Durian</p>
+                    <p style="margin-top: -15px;"><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i></p>
+                    <p style="margin-top: -20px;color: rgb(8, 140, 8);">Rp. 13.000</p>
+                    <p style="float: right;margin-top: -45px;margin-right: 70px;"><i class="cart-icon"></i></p>
+                </div>
+                <div class="col-4">
+                    <img style="width: 170px; height: auto;" src="Foto Produk/Surabi Pisang.png" alt="">
+                    <p>Surabi Pisang</p>
+                    <p style="margin-top: -15px;"><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i></p>
+                    <p style="margin-top: -20px;color: rgb(8, 140, 8);">Rp. 11.000</p>
+                    <p style="float: right;margin-top: -45px;margin-right: 70px;"><i class="cart-icon"></i></p>
+                </div>
+                <div class="col-4">
+                    <img style="width: 170px; height: auto;" src="Foto Produk/Surabi Coklat.png" alt="">
+                    <p>Surabi Coklat</p>
+                    <p style="margin-top: -15px;"><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i><i class="star-icon"></i></p>
+                    <p style="margin-top: -20px;color: rgb(8, 140, 8);">Rp. 8.000</p>
+                    <p style="float: right;margin-top: -45px;margin-right: 70px;"><i class="cart-icon"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+</body>
+<script>
+  function goBack() {
+    window.history.back();
+  }
+</script>
+</html>

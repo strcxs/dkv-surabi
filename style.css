@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'lucida';
+    src: url('font/lcallig.ttf');
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* agar gambar background penuh tinggi layar */
+}
+
+nav {
+    font-family: 'Baskerville Old Face';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    padding: 0px 20px;
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #765E68;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon {
+    display: inline-block;
+    width: 28px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 28px;
+    background-image: url('Aset/Ikon beli atau Produk-01.png');
+    background-size: cover;
+}
+.star-icon {
+    display: inline-block;
+    width: 24px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 24px;
+    background-image: url('Aset/star.png');
+    background-size: cover;
+}
+.back-icon {
+    display: inline-block;
+    width: 28px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 28px;
+    background-image: url('Aset/Ikon\ kembali-01.png');
+    background-size: cover;
+}
+.contact-icon {
+    display: inline-block;
+    width: 28px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 28px;
+    background-image: url('Aset/Ikon contact-01.png');
+    background-size: cover;
+}
+.tiktok-icon {
+    display: inline-block;
+    width: 28px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 28px;
+    vertical-align: middle; 
+    background-image: url('Aset/tiktok.png');
+    background-size: cover;
+}
+.instagram-icon {
+    display: inline-block;
+    width: 28px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 28px;
+    vertical-align: middle; 
+    background-image: url('Aset/instagram.png');
+    background-size: cover;
+}
+.logo-icon {
+    display: inline-block;
+    width: 100px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 60px;
+    background-image: url('Aset/Logo-01.png');
+    background-size: cover;
+    /* vertical-align: middle; */
+}
+.home-font{
+    font-family: 'lucida';
+    padding-left: 100px;
+    padding-top: 50px;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.home-font button{
+    margin-top: 80px;
+    font-family: 'Baskerville Old Face';
+    font-size: 25px;
+    border: none;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ffffff;
+    background-color: #765E68;
+    border-radius: 20px;
+
+}
+.home-font button:hover{
+    background-color: #534349; 
+}
+.text-abu{
+    color: #765E68;
+}
+.text-kecil{
+    font-family: 'Baskerville Old Face';
+    font-size: 23.6px;
+    margin-top: -5px;
+}
+.home-img img {
+    position: absolute;
+    width: 430px;
+    height: 430px;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    position: absolute;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+.container-fluid{
+    padding: 0;
+}
+.desc {
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.desc h2, .desc p{
+    display: inline-block;
+    padding: 10px;
+    font-family:'Baskerville Old Face' ;
+    background-color: #765E68;
+    color: #ffffff;
+}
+.desc h2{
+    font-size: 50px;
+    border-radius: 20px;
+}
+.desc p{
+    font-size: 17px;
+    margin-right: 110px;
+    padding-right: 55px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.text-pink{
+    font-family:'Baskerville Old Face' ;
+    border-radius: 30px;
+    padding: 10px;
+    background-color:#C69D98 ;
+    color: #ffffff;
+}
+.text-pink a{
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 7px;
+    background-color:#DA6B61 ;
+    color: #ffffff;
+}
+.text-pink a:hover{
+    background-color:#ac5148 ;
+}
+.text-basic{
+    color: #ffffff;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.contact{
+    font-size: 30px;
+    color: #ffffff;
+    font-family:'Baskerville Old Face' ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+    text-align: center;
+    /* align-items: center; */
+    /* background-color: #DA6B61; */
+}
+.cont{
+    padding-top: 10px;
+    border-radius: 30px;
+    background-color: #80506C;
+}
+.maps{
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* float: right; */
+    /* text-align: center;
+    align-items: center; */
+    /* justify-content: center; */
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+.text-button{
+    font-family:'Baskerville Old Face' ;
+    margin-right: 10px;
+    background-color: #765E68;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 40px;
+}
+.menu{
+    text-align: center;
+    font-family:'Baskerville Old Face' ;
+}
+.menu-banner{
+    margin-right: 350px;
+    margin-left: 350px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0px;
+}
+.menu-banner img{
+    width: 250px;
+}
+.content p, .content h1{
+    font-family:'Baskerville Old Face' ;
+}
+.form input::placeholder {
+    font-family:'Baskerville Old Face' ;
+
+    color: hsl(0, 0%, 80%);
+}
+.form input, .form textarea, .form button {
+    font-family:'Baskerville Old Face' ;
+    color: #ffffff;
+    border: none;
+    background-color: #80506C;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    width: 300px;
+}
+.form button:hover{
+    background-color: #623e53;
+}
+.form textarea{
+    width: 665px;
+    height: 150px;
+}
+.review{
+    font-family:'Baskerville Old Face' ;
+    margin-left: 40px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Tengahkan secara vertikal */
+    align-items: center;
+}
+.review img{
+    padding: 5px;
+    height: 180px;
+    width: auto;
+}
+.review h1{
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contoh Halaman dengan Navbar</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> -->
+<link rel="stylesheet" href="style.css">
+<style>
+  body{
+    background-image: url('Aset/Bg 2-01.jpg');
+  }
+</style>
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="mt-2 ">
+      <div class="left-nav">
+        <ul>
+          <li><a href="index.html"><i class="logo-icon"></i></a></li>
+          <li><a href="menu.html">Product</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="right-nav">
+        <div class="user-info">
+          <i onclick="goBack()" class="back-icon mx-4"></i>
+          <i class="cart-icon mx-4"></i>
+          <i class="contact-icon mx-4"></i>
+        </div>
+      </div>
+    </nav>
+    <div class="banner">
+        <img src="Aset/About-01.png" alt="">
+    </div>
+    <div class="desc">
+        <h2>Ingin Tahu Lebih Mendalam</h2>
+        <p>
+            Surabi Cihapit adalah spot kuliner legendaris Bandung. Rasa autentiknya membuatnya menjadi melegenda dikalangan pencinta kuliner.
+            Surabi yang merupakan jajanan tradisional khas Bandung ini telah berdiri sejak tahun 1993 dan diminati hingga sekarang, terkenal lezat
+            dengan berbagai pilihan rasa yang menarik. Sebagai salah satu kuliner legendaris di Bandung, surabi Cihapit menaarkan berbagai jenis
+            surabi yang beragam menjadi salah satu daya tarik, berbagai rasa serabi disini memiliki citra rasa khas masing-masing yang mengunggah
+            selera. Tersedia serabi tradisional, serabi manis, serabi asin, hingga serabi pedas. <br>
+            Daya tarik lainya yang ditawarkan oleh serabi ini adalah harganya yang masih terjangkau, harga serabi di sini mulai dari Rp 3.000 untuk
+            satu serabi polos. Jika memilih jenis rasa yang satu, maka akan terdapat perbedaan harga, namun harganya masih sangat ramah di kantong.
+        </p>
+        <span class="text-pink">
+            Untuk mengetahui retiing dari serabi cihapit bisa <a href="review.html">klik disini</a>
+        </span>
+    </div>
+  </div>
+
+</body>
+<script>
+  function goBack() {
+    window.history.back();
+  }
+</script>
+</html>

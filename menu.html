@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contoh Halaman dengan Navbar</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> -->
+<link rel="stylesheet" href="style.css">
+<style>
+  body{
+    background-image: url('Aset/Bg\ 2-01.jpg');
+  }
+</style>
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="mt-2 ">
+      <div class="left-nav">
+        <ul>
+          <li><a href="index.html"><i class="logo-icon"></i></a></li>
+          <li><a href="menu.html">Product</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="right-nav">
+        <div class="user-info">
+          <i onclick="goBack()" class="back-icon mx-4"></i>
+          <i class="cart-icon mx-4"></i>
+          <i class="contact-icon mx-4"></i>
+        </div>
+      </div>
+    </nav>
+    <div class="menu">
+        <h1 style="font-weight: 500;">Menu lainya</h1>
+        <p style="line-height: 1;">
+            Dengan adanya varian rasa untuk melengkapi <br>
+            Citra rasa, sebuah makanan khas daerah tidak akan <br>
+            Kalah dengan makanan moderen yang kekinian <br>
+        </p>
+    </div>
+    <div class="menu-banner">
+        <button id="p-manis" style="background: none;border: none;" class="bann" >
+            <img src="Aset/Produk Manis 1-01.png" alt="manis">
+            <img style="position: relative; margin-top: -450px; height: 200px; width: auto;" src="Foto Produk/Varian Manis.png" alt=""><br>
+            <p style="text-align: center; position: relative; margin-top: -130px;font-family:'Baskerville Old Face';font-size: 20px; font-weight: 400;">Varian Manis</p>
+            <p style="text-align: center; position: relative; margin-top: -10px;font-family:'Baskerville Old Face';font-size: 15px; line-height: 1;">
+                Sebuah rasa yang manis <br>
+                Dengan varian campuran <br>
+                makanan manis
+            </p>
+        </button>
+        <button id="p-asin" style="background: none;border: none;" class="bann" >
+            <img src="Aset/Produk asin 1-01.png" alt="manis">
+            <img style="position: relative; margin-top: -450px; height: 200px; width: auto;" src="Foto Produk/Varian Asin.png" alt="">
+            <p style="text-align: center; position: relative; margin-top: -130px;font-family:'Baskerville Old Face';font-size: 20px; font-weight: 400;">Varian Asin</p>
+            <p style="text-align: center; position: relative; margin-top: -10px;font-family:'Baskerville Old Face';font-size: 15px; line-height: 1;">
+                Sebuah rasa yang penemuan <br>
+                baru menyampuran bahan <br>
+                bahan yang rasa asin
+            </p>
+        </button>
+    </div>
+  </div>
+</body>
+<script>
+  document.getElementById('p-manis').onclick = function(){
+    window.location.href ='fav-manis.html';
+  }
+  document.getElementById('p-asin').onclick = function(){
+    window.location.href ='fav-asin.html';
+  }
+  function goBack() {
+    window.history.back();
+  }
+</script>
+</html>
