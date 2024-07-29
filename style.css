@@ -295,3 +295,7 @@ nav ul li a:hover {
 .review h1{
     text-align: center;
 }
+#content a{
+    color: black;
+    text-decoration: none;
+}
