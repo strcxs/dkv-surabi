@@ -71,6 +71,14 @@ nav ul li a:hover {
     background-image: url('Aset/Ikon\ kembali-01.png');
     background-size: cover;
 }
+.next-icon {
+    display: inline-block;
+    transform: rotate(180deg);
+    width: 28px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 28px;
+    background-image: url('Aset/Ikon\ kembali-01.png');
+    background-size: cover;
+}
 .contact-icon {
     display: inline-block;
     width: 28px; /* Sesuaikan ukuran sesuai kebutuhan */
@@ -149,6 +157,16 @@ nav ul li a:hover {
     height: auto;
     z-index: -1;
 }
+.bannerxx{
+    position: relative;
+}
+.bannerxx img{
+    /* position: absolute; */
+    align-content: center;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
 .container-fluid{
     padding: 0;
 }
@@ -176,6 +194,9 @@ nav ul li a:hover {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
+}
+.desc h3{
+    background-color: aqua;
 }
 .text-pink{
     font-family:'Baskerville Old Face' ;
@@ -289,8 +310,8 @@ nav ul li a:hover {
 }
 .review img{
     padding: 5px;
-    height: 180px;
-    width: auto;
+    height: auto;
+    width: 350px;
 }
 .review h1{
     text-align: center;
